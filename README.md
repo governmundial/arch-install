@@ -10,15 +10,15 @@
 
 `station wlan0 connect WIFINAME`
 
-`PASSWORD`
+`*PASSWORD*`
 
 `station wlan0 show`
 
-`CTRL+C`
+**CTRL+C**
 
 `ping 8.8.8.8`
 
-`CTRL+C`
+**CTRL+C**
 
 `lsblk`
 
