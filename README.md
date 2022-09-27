@@ -41,3 +41,7 @@
 `mkdir /mnt/boot`
 
 `mkdir /mnt/boot/efi`
+
+`mount /dev/XXXX[/boot/efi] /mnt/boot/efi`
+
+`
