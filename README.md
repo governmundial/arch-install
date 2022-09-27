@@ -82,7 +82,13 @@
 
 `echo LANG=ca_ES.UTF8 > /etc/locale.conf`
 
-`grub-install --efi-directory=/boot/efi --bootloader -id='Arch Linux' --target=x86_64-efi`
+`pacman -S dosfstools mtools`
+
+`nano /etc/default/grub`
+
+**UNCOMMENT 'GRUB_DISABLE_OS_PROBER=false'; THEN CTRL+O & ENTER & CTRL+X**
+
+`grub-install --efi-directory=/boot/efi --target=x86_64-efi --bootloader-id=grub_uefi --recheck`
 
 `grub-mkconfig -o /boot/grub/grub.cfg`
 
@@ -117,6 +123,10 @@
 `systemctl start NetworkManager.service`
 
 `systemctl enable NetworkManager.service`
+
+`systemctl start dhcpcd.service`
+
+`systemctl enable dhcpcd.service`
 
 `ìp link`
 
