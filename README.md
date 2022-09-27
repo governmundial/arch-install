@@ -35,3 +35,9 @@
 `mkswap /dev/XXXX`
 
 `swapon`
+
+`mount /dev/XXXX[/] /mnt`
+
+`mkdir /mnt/boot`
+
+`mkdir /mnt/boot/efi`
