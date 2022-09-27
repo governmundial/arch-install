@@ -2,6 +2,8 @@
 
 `loadkeys es`
 
+`setfont ter-132n`
+
 `ping 8.8.8.8`
 
 **CTRL+C**
