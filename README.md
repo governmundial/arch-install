@@ -44,4 +44,4 @@
 
 `mount /dev/XXXX[/boot/efi] /mnt/boot/efi`
 
-`
+`pacstrap /mnt linux linux-zen linux-headers linux-firmware base base-devel sudo git sassc wget curl neofetch htop bpytop cmatrix pulseaudio intel-ucode nano os-prober grub networkmanager dhcpcd efibootmgr`
