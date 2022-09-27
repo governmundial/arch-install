@@ -14,7 +14,7 @@
 
 `station wlan0 connect WIFINAME`
 
-*PASSWORD*
+**TYPE THE WIFI PASSWD**
 
 `station wlan0 show`
 
@@ -60,7 +60,7 @@
 
 `nano /etc/locale.gen`
 
-**UNCOMMENT ca_ES.UTF-8 & es_ES.UTF-8 - CTRL+O ENTER CTRL+X**
+**UNCOMMENT ca_ES.UTF-8 & es_ES.UTF-8; THEN CTRL+O & ENTER & CTRL+X**
 
 `locale-gen`
 
@@ -90,4 +90,12 @@
 
 `nano /etc/sudoers`
 
-**UNCOMMENT %wheel ALL=(ALL:ALL) ALL - CTRL+O ENTER CTRL+X**
+**UNCOMMENT %wheel ALL=(ALL:ALL) ALL; THEN CTRL+O & ENTER & CTRL+X**
+
+`exit`
+
+`umount -R /mnt`
+
+`reboot`
+
+**EJECT THE USB DRIVE & LOG IN WHEN REBOOT IS DONE**
