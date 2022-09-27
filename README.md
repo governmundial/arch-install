@@ -117,3 +117,5 @@
 `ping 8.8.8.8`
 
 `pacman -S xf86-video-intel intel-ucode`
+
+`pacman -S xorg-server xorg-xinit mesa mesa-demos`
