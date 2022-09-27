@@ -10,7 +10,7 @@
 
 `station wlan0 connect WIFINAME`
 
-`*PASSWORD*`
+*PASSWORD*
 
 `station wlan0 show`
 
