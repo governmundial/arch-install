@@ -120,4 +120,4 @@
 
 `pacman -S xorg-server xorg-xinit mesa mesa-demos`
 
-`pacman -S gnome gnome-extras`
+`pacman -S gnome gnome-extra`
