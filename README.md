@@ -48,7 +48,7 @@
 
 `mount /dev/XXXX[/boot/efi] /mnt/boot/efi`
 
-`pacstrap /mnt linux linux-zen linux-headers linux-firmware base base-devel sudo git sassc wget curl neofetch htop bpytop cmatrix pulseaudio intel-ucode nano os-prober grub networkmanager dhcpcd efibootmgr netctl wpa_supplicant dialog`
+`pacstrap /mnt linux linux-zen linux-headers linux-firmware base base-devel sudo git sassc wget curl neofetch htop bpytop cmatrix pulseaudio nano os-prober grub networkmanager dhcpcd efibootmgr netctl wpa_supplicant dialog`
 
 `genfstab /mnt >> /mnt/etc/fstab`
 
@@ -99,3 +99,21 @@
 `reboot`
 
 **EJECT THE USB DRIVE & LOG IN WHEN REBOOT IS DONE**
+
+`neofetch`
+
+`sudo su` + **PASSWD**
+
+`systemctl start NetworkManager.service`
+
+`systemctl enable NetworkManager.service`
+
+`ìp link`
+
+`ip link set XXX up`
+
+`nmcli dev wifi connect WIFINAME password WIFIPASSWD`
+
+`ping 8.8.8.8`
+
+`pacman -S xf86-video-intel intel-ucode`
