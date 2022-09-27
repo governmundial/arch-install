@@ -75,3 +75,19 @@
 `grub-install --efi-directory=/boot/efi --bootloader -id='Arch Linux' --target=x86_64-efi`
 
 `grub-mkconfig -o /boot/grub/grub.cfg`
+
+`passwd`
+
+**ROOT PASSWD & RETYPE PASSWD**
+
+`useradd -m palo`
+
+`passwd palo`
+
+**USER PASSWD & RETYPE PASSWD**
+
+`usermod -aG wheel palo`
+
+`nano /etc/sudoers`
+
+**UNCOMMENT %wheel ALL=(ALL:ALL) ALL - CTRL+O ENTER CTRL+X**
