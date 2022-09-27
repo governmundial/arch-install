@@ -62,4 +62,15 @@
 
 **UNCOMMENT ca_ES.UTF-8 & es_ES.UTF-8 - CTRL+O ENTER CTRL+X**
 
-``
+`locale-gen`
+
+`hwclock -w`
+
+`date`
+
+`echo KEYMAP=es > /etc/vconsole.conf`
+
+`echo LANG=ca_ES.UTF8 > /etc/locale.conf`
+
+`grub-install --efi-directory=/boot/efi --bootloader -id='Arch Linux' --target=x86_64-efi`
+
