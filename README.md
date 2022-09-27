@@ -121,3 +121,9 @@
 `pacman -S xorg-server xorg-xinit mesa mesa-demos`
 
 `pacman -S gnome gnome-extra`
+
+`pacman -S gdm`
+
+`systemctl enable gdm.service`
+
+`reboot`
