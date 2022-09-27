@@ -140,7 +140,7 @@
 
 `pacman -S xorg-server xorg-xinit mesa mesa-demos`
 
-`pacman -S gnome gnome-extra`
+`pacman -S gnome gnome-extra tilix`
 
 `pacman -S gdm`
 
