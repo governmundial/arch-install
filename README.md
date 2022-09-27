@@ -42,6 +42,16 @@
 
 `mount /dev/XXXX[/] /mnt`
 
+`cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bak`
+
+`pacman -Sy`
+
+`pacman -S pacman-contrib`
+
+`rankmirrors -n 10 /etc/pacman.d/mirrorlist.bak > /etc/pacman.d/mirrorlist`
+
+`cat /etc/pacman.d/mirrorlist`
+
 `mkdir /mnt/boot`
 
 `mkdir /mnt/boot/efi`
