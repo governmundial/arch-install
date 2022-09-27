@@ -19,3 +19,11 @@
 `ping 8.8.8.8`
 
 `CTRL+C`
+
+`lsblk`
+
+`cfdisk /dev/XXXX`
+
+`CREATE PARTITIONS: ONE LARGE /; ONE 512M /BOOT/EFI ONE 4-8G [SWAP]`
+
+`
