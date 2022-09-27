@@ -2,6 +2,10 @@
 
 `loadkeys es`
 
+`ping 8.8.8.8`
+
+**CTRL+C**
+
 `iwctl`
 
 `device list`
