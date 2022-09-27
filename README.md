@@ -26,4 +26,12 @@
 
 `CREATE PARTITIONS: ONE LARGE [/]; ONE 512M [/BOOT/EFI]; ONE 4-8G [SWAP]`
 
-`
+`lsblk`
+
+`mkfs.vfat -F32 /dev/XXXX`
+
+`mkfs.ext4 /dev/XXXX`
+
+`mkswap /dev/XXXX`
+
+`swapon`
