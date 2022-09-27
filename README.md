@@ -119,3 +119,5 @@
 `pacman -S xf86-video-intel intel-ucode`
 
 `pacman -S xorg-server xorg-xinit mesa mesa-demos`
+
+`pacman -S gnome gnome-extras`
