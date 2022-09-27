@@ -51,3 +51,15 @@
 `pacstrap /mnt linux linux-zen linux-headers linux-firmware base base-devel sudo git sassc wget curl neofetch htop bpytop cmatrix pulseaudio intel-ucode nano os-prober grub networkmanager dhcpcd efibootmgr netctl wpa_supplicant dialog`
 
 `genfstab /mnt >> /mnt/etc/fstab`
+
+`arch-chroot /mnt`
+
+`echo laughtale > /etc/hostname`
+
+`ln -sf /usr/share/zoneinfo/Europe/Madrid /etc/localtime`
+
+`nano /etc/locale.gen`
+
+**UNCOMMENT ca_ES.UTF-8 & es_ES.UTF-8 - CTRL+O ENTER CTRL+X**
+
+``
