@@ -2,8 +2,6 @@
 
 `loadkeys es`
 
-`setfont ter-132n`
-
 `ping 8.8.8.8`
 
 **CTRL+C**
@@ -30,7 +28,7 @@
 
 `cfdisk /dev/XXXX`
 
-`CREATE PARTITIONS: ONE LARGE [/]; ONE 512M [/BOOT/EFI]; ONE 4-8G [SWAP]`
+`CREATE PARTITIONS: ONE 1G [/BOOT/EFI]; ONE 8G [SWAP]; ONE LARGE [/]`
 
 `lsblk`
 
@@ -66,7 +64,7 @@
 
 `arch-chroot /mnt`
 
-`echo laughtale > /etc/hostname`
+`echo [YOUR-HOSTNAME] > /etc/hostname`
 
 `ln -sf /usr/share/zoneinfo/Europe/Madrid /etc/localtime`
 
@@ -98,13 +96,13 @@
 
 **ROOT PASSWD & RETYPE PASSWD**
 
-`useradd -m palo`
+`useradd -m [YOUR-USERNAME]`
 
-`passwd palo`
+`passwd [YOUR-USERNAME]`
 
 **USER PASSWD & RETYPE PASSWD**
 
-`usermod -aG wheel palo`
+`usermod -aG wheel [YOUR-USERNAME]`
 
 `nano /etc/sudoers`
 
@@ -138,11 +136,11 @@
 
 `ping 8.8.8.8`
 
-`pacman -S xf86-video-intel intel-ucode`
+`pacman -S xf86-video-intel intel-ucode [OR xf86-video-nouveau; OR xf86-video-ati]`
 
 `pacman -S xorg-server xorg-xinit mesa mesa-demos`
 
-`pacman -S plasma plasma-wayland-session kde-applications tilix`
+`pacman -S plasma plasma-wayland-session tilix`
 
 `pacman -S sddm`
 
