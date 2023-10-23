@@ -140,7 +140,7 @@
 
 `pacman -S xorg-server xorg-xinit mesa mesa-demos`
 
-`pacman -S plasma plasma-wayland-session tilix`
+`pacman -S plasma plasma-wayland-session tilix firefox`
 
 `pacman -S sddm`
 
