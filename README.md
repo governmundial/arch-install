@@ -36,7 +36,7 @@
 
 `mkfs.vfat -F32 /dev/XXXX`
 
-`mkfs.ext4 /dev/XXXX`
+`mkfs.btrfs -L root /dev/XXXX`
 
 `mkswap /dev/XXXX`
 
@@ -142,10 +142,10 @@
 
 `pacman -S xorg-server xorg-xinit mesa mesa-demos`
 
-`pacman -S gnome gnome-extra tilix`
+`pacman -S plasma plasma-wayland-session kde-applications tilix`
 
-`pacman -S gdm`
+`pacman -S sddm`
 
-`systemctl enable gdm.service`
+`systemctl enable sddm.service`
 
 `reboot`
